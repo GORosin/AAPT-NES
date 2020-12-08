@@ -13,9 +13,10 @@ import Navigation from './components/Navigation';
 function App() {
   return (
     <div className="App">
-	    <BrowserRouter>
+	      <h1>AAPT-NEW ENGLAND SECTION</h1>
+		<BrowserRouter>
         <div>
-          <Navigation />
+			<Navigation/>
             <Switch>
              <Route path="/" component={Home} exact/>
              <Route path="/about" component={About}/>

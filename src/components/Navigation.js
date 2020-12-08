@@ -1,15 +1,39 @@
-import React from 'react';
- 
-import { NavLink } from 'react-router-dom';
- 
-const Navigation = () => {
-    return (
-       <div>
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/about">About</NavLink>
-          <NavLink to="/contact">Contact</NavLink>
-       </div>
-    );
+import React, { useState } from 'react';
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink,
+} from 'reactstrap';
+import Menu from './Menu';
+
+
+const Navigation = (props) => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => setIsOpen(!isOpen);
+
+  return (
+    <div>
+      <Navbar color="light" light expand="md">
+        <NavbarBrand href="/">Home</NavbarBrand>
+        <NavbarToggler onClick={toggle} />
+        <Collapse isOpen={isOpen} navbar>
+          <Nav className="mr-auto" navbar>
+            <NavItem>
+              <NavLink href="/about/">About</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/contact">Contact Us</NavLink>
+            </NavItem>
+            <Menu/>
+          </Nav>
+        </Collapse>
+      </Navbar>
+    </div>
+  );
 }
- 
 export default Navigation;

@@ -1,7 +1,6 @@
 TODO
 - wild apricot section
 - lists shouldn't be hardcoded
-- wrap page content in divs
 - archives section
 - calendar
 - recent posts
@@ -21,6 +20,7 @@ TODO
 	- images
 - become a member:
 	- needs elaboration
+	- fix joining link
 - books:
 	- older books
 	- images

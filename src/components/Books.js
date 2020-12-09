@@ -2,7 +2,8 @@ import React from 'react';
  
 const About = () => {
     return (
-       <div>
+	<div>
+       <div className="section">
 		<h2>New Books by section members</h2>
 		<hr/>
 		<h3>New book by Tom Marcella:</h3>
@@ -36,6 +37,7 @@ const About = () => {
 		<br/>
 		<li>Temporarily 50% off here at the CreateSpace store. Enter the discount code 622RHMM2. (However, truth in advertising: there is a shipping cost, the shipping may take longer, and the kindle version isn’t free if you buy the paperback via CreateSpace instead of Amazon.)</li>
 		</ul>
+       </div>
        </div>
     );
 }

@@ -1,5 +1,7 @@
 .App {
-  text-align: left;
+	height:100vh;
+	text-align: left;
+	background-color: #fff0e6;
 }
 
 .App-logo {
@@ -95,4 +97,11 @@ li{
 }
 .nopoints{
 	list-style-type:none;
+}
+.section{	
+  margin: auto;
+  max-width: 600px;
+  border: 3px solid #d9d9d9;
+  background-color: white;
+  padding: 25px;
 }

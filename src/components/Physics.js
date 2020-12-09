@@ -2,7 +2,8 @@ import React from 'react';
  
 const About = () => {
     return (
-       <div>
+			<div>
+       <div className="section">
           <h2>Physics Olympics</h2>
 		  <hr/>
           <p>
@@ -33,6 +34,7 @@ If you are interested please send this form in RIGHT AWAY.<br/>
 Note:    All coaches who enter a team will be expected to attend at least one planning meeting and help with an event. If you’d like to give your preference for which event you’d like to do, please let us know.
 </p>
 <hr/>
+       </div>
        </div>
     );
 }

@@ -3,6 +3,7 @@ import React from 'react';
 const About = () => {
     return (
 		<div>
+		<div className="section">
 		<h2>Janet Guernsey Award</h2>
 		<hr/>
 		<h3>The Janet Guernsey Award</h3>
@@ -31,6 +32,7 @@ const About = () => {
 		<li>??????Bruce Illingworth</li>
 		<li>?????  Phyllis Fleming</li>
 		</ul>
+		</div>
 		</div>
 	);
 }

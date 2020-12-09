@@ -2,7 +2,8 @@ import React from 'react';
  
 const About = () => {
     return (
-       <div>
+	<div>
+       <div className="section">
 		<h2>Employment Opportunities</h2>
 		<hr/>
 		Posted on 10/9/2018<br/>
@@ -14,6 +15,7 @@ const About = () => {
 Posted on 10/3/2018<br/>
 Physics Teacher (full time) position open in New Haven, Connecticut at <b>Hill Career Magnet High School.</b> Help with alternate/temporary certification available. Position posted at ctreap.net .  Questions, contact:
 RICHARD.THERRIEN@new-haven.k12.ct.us
+       </div>
        </div>
     );
 }

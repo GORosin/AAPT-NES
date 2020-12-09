@@ -2,7 +2,8 @@ import React from 'react';
  
 const About = () => {
     return (
-       <div>
+	<div>
+       <div className="section">
           <h2>Regional Meetings</h2>
 		  <hr/>
           <p>On behalf of the board of the AAPT-New England Section, we wish to announce the 2020 Fall Meeting to be held remotely (via Zoom) on Saturday, October 31, 2020.  10:00 am to 2:00 pm; workshop(s) from 2:00 pm to 3:00 pm</p>
@@ -39,6 +40,7 @@ Saturday, October 31st<br/>
 </ul>
 </ul>
 </ul>
+       </div>
        </div>
     );
 }

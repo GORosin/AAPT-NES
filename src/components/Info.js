@@ -2,7 +2,8 @@ import React from 'react';
  
 const About = () => {
     return (
-       <div>
+	<div>
+       <div className="section">
 		<h2>Section Information</h2>
 		<hr/>
 		<ul className="nopoints">
@@ -11,6 +12,7 @@ const About = () => {
 		<li>Minutes of Meetings</li>
 		<li>Joining Google Group</li>
 		</ul>
+       </div>
        </div>
     );
 }

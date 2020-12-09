@@ -4,6 +4,7 @@ const home = () => {
     return (
        <div>
           <h2>Welcome to the AAPT-NES</h2>
+		  <hr/>
            <p>The objective of the New England Section of the American Association of Physics 
 		   Teachers is the advancement and integration of the teaching of physics at all 
 		   educational levels and the furtherance of an appreciation for the role of physics 

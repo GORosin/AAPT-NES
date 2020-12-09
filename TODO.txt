@@ -1,0 +1,32 @@
+TODO
+- wild apricot section
+- lists shouldn't be hardcoded
+- wrap page content in divs
+- archives section
+- calendar
+- recent posts
+- search bar
+- physics teacher organizations
+- science organizations
+- science teacher organizations
+- pages section? should refactor this somehow
+- home:
+	- previous events collapsable
+	- category filter
+- regional meetings:
+	- past meetings
+- physics olympics:
+	- form
+- janet guersney award:
+	- images
+- become a member:
+	- needs elaboration
+- books:
+	- older books
+	- images
+- employment opportunities:
+	- links
+- section info:
+	- subpages (or tabs maybe) for members and constitution
+- photo gallery:
+	- literally anything

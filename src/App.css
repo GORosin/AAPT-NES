@@ -89,3 +89,9 @@ h1{
 li{
 	text-align:left;
 }
+.new{
+	color:red;
+}
+.nopoints{
+	list-style-type:none;
+}

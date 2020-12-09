@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
     return (
        <div>
-          <h1>Physics Olympics</h1>
+          <h2>Physics Olympics</h2>
 		  <hr/>
           <p>
 		 32nd Annual Eastern Massachusetts Physics Olympics is coming<br/><br/>

@@ -8,28 +8,43 @@ import {
   NavItem,
   NavLink,
 } from 'reactstrap';
-import Menu from './Menu';
-
 
 const Navigation = (props) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
-
+  
   return (
     <div>
-      <Navbar color="light" light expand="md">
+        <Navbar color="light" light expand="md">
         <NavbarBrand href="/">Home</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="/about/">About</NavLink>
+              <NavLink href="/regional-meetings">Regional Meetings</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/contact">Contact Us</NavLink>
+              <NavLink href="/physics-olympics">Physics Olympics</NavLink>
+            </NavItem> 
+			<NavItem>
+              <NavLink href="/janet-guersney-award">Janet Guersney Award</NavLink>
+            </NavItem> 
+			<NavItem>
+              <NavLink href="/become-a-member">Become A Member</NavLink>
+            </NavItem> 
+			<NavItem>
+              <NavLink href="/books-by-section-members">New Books By Section Members</NavLink>
             </NavItem>
-            <Menu/>
+			<NavItem>
+              <NavLink href="/employment-opportunities">Employment Opportunities</NavLink>
+            </NavItem>
+			<NavItem>
+              <NavLink href="/section-information">Section Information</NavLink>
+            </NavItem>
+			<NavItem>
+              <NavLink href="/photo-gallery">Photo Gallery</NavLink>
+            </NavItem>
           </Nav>
         </Collapse>
       </Navbar>

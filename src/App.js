@@ -5,8 +5,14 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
  
 import Home from './components/Home';
 //import Homepage from './components/Homepage.js';
-import About from './components/About';
-import Contact from './components/Contact';
+import Meetings from './components/Meetings';
+import Physics from './components/Physics';
+import Award from './components/Award';
+import Member from './components/Member';
+import Books from './components/Books';
+import Employment from './components/Employment';
+import Info from './components/Info';
+import Gallery from './components/Gallery';
 import Error from './components/Error';
 import Navigation from './components/Navigation';
 
@@ -19,8 +25,14 @@ function App() {
 			<Navigation/>
             <Switch>
              <Route path="/" component={Home} exact/>
-             <Route path="/about" component={About}/>
-             <Route path="/contact" component={Contact}/>
+             <Route path="/regional-meetings" component={Meetings}/>
+             <Route path="/physics-olympics" component={Physics}/>
+             <Route path="/janet-guersney-award" component={Award}/>
+             <Route path="/become-a-member" component={Member}/>
+             <Route path="/books-by-section-members" component={Books}/>
+             <Route path="/employment-opportunities" component={Employment}/>
+             <Route path="/section-information" component={Info}/>
+             <Route path="/photo-gallery" component={Gallery}/>
             <Route component={Error}/>
            </Switch>
         </div> 

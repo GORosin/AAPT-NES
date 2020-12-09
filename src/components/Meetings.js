@@ -9,7 +9,7 @@ const About = () => {
           <p>On behalf of the board of the AAPT-New England Section, we wish to announce the 2020 Fall Meeting to be held remotely (via Zoom) on Saturday, October 31, 2020.  10:00 am to 2:00 pm; workshop(s) from 2:00 pm to 3:00 pm</p>
 <p>The meeting theme is Improving Physics Instructional Lab Experiences.  We encourage participation from across the span from elementary and secondary education through first-year and beyond the first year (BFY) of college.  We invite all from early-career to experienced to retired, and especially recent or new-to-physics teachers to join us!</p>
 <p>Our keynote speaker is: Dr. Natasha Holmes, Cornell University Physics, and we welcome contributed talks.  There will be workshops, including  a PTRA session with information that can be used in a remote-classroom setting, held on Saturday afternoon. </p>
-<p>You can register for the meeting on <a href="https://aapt-nes.wildapricot.org/event-4015643">Wild Apricot.</a></p>
+<p>You can register for the meeting on <a href="/wild-apricot">Wild Apricot.</a></p>
 <p>If you would like to contribute a talk, <a href = "https://forms.gle/9jyMzMZtrvfoEk2RA">please use this form.</a></p>
 <p>Or paste this link to contribute: <a href="https://forms.gle/9jyMzMZtrvfoEk2RA">https://forms.gle/9jyMzMZtrvfoEk2RA</a></p>
 <p>2020 Fall Meeting – Tentative Program<br/>

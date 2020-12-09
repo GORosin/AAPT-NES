@@ -1,14 +1,14 @@
 import React from 'react';
  
-const Gallery = () => {
+const WildApricot = () => {
     return (
 	<div>
        <div className="section">
-          <h2>Photo Gallery</h2>
+          <h2>Wild Apricot</h2>
 		  <hr/>
        </div>
        </div>
     );
 }
  
-export default Gallery;
+export default WildApricot;

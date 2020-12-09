@@ -4,7 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
  
 import Home from './components/Home';
-//import Homepage from './components/Homepage.js';
 import Meetings from './components/Meetings';
 import Physics from './components/Physics';
 import Award from './components/Award';
@@ -15,6 +14,7 @@ import Info from './components/Info';
 import Gallery from './components/Gallery';
 import Error from './components/Error';
 import Navigation from './components/Navigation';
+import WildApricot from './components/WildApricot';
 
 function App() {
   return (
@@ -33,6 +33,7 @@ function App() {
              <Route path="/employment-opportunities" component={Employment}/>
              <Route path="/section-information" component={Info}/>
              <Route path="/photo-gallery" component={Gallery}/>
+             <Route path="/wild-apricot" component={WildApricot}/>
             <Route component={Error}/>
            </Switch>
         </div> 

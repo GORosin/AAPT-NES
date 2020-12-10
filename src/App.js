@@ -31,7 +31,7 @@ function App() {
              <Route path="/become-a-member" component={Member}/>
              <Route path="/books-by-section-members" component={Books}/>
              <Route path="/employment-opportunities" component={Employment}/>
-             <Route path="/section-information" component={Info}/>
+             <Route path="/section-information/" component={Info}/>
              <Route path="/photo-gallery" component={Gallery}/>
              <Route path="/wild-apricot" component={WildApricot}/>
             <Route component={Error}/>

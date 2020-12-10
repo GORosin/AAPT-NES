@@ -27,6 +27,7 @@ TODO
 - employment opportunities:
 	- links
 - section info:
-	- subpages (or tabs maybe) for members and constitution
+	- maybe convert section into tabs?
+	- maybe table of content?
 - photo gallery:
 	- literally anything

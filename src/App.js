@@ -19,7 +19,6 @@ import WildApricot from './components/WildApricot';
 function App() {
   return (
     <div className="App">
-	      <h1>AAPT-NEW ENGLAND SECTION</h1>
 		<BrowserRouter>
         <div>
 			<Navigation/>

@@ -112,3 +112,7 @@ button{
 .center{
 	text-align:center;
 }
+.nav-header{
+	background-color:white;
+	box-shadow: 3px 3px 3px grey;
+}

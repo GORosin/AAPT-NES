@@ -15,8 +15,9 @@ const Navigation = (props) => {
   const toggle = () => setIsOpen(!isOpen);
   
   return (
-    <div>
-        <Navbar color="light" light expand="md">
+    <div className="nav-header">
+		<h1>AAPT-NEW ENGLAND SECTION</h1>
+        <Navbar light expand="md">
         <NavbarBrand href="/">Home</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>

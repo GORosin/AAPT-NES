@@ -3,7 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
  
-import Home from './components/Home';
+import Home from './Home';
 import Meetings from './components/Meetings';
 import Physics from './components/Physics';
 import Award from './components/Award';
@@ -21,7 +21,7 @@ function App() {
     <div className="App">
 		<BrowserRouter>
         <div>
-			<Navigation/>
+			<Navigation className = "navigation"/>
             <Switch>
              <Route path="/" component={Home} exact/>
              <Route path="/regional-meetings" component={Meetings}/>

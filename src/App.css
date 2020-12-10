@@ -114,5 +114,8 @@ button{
 }
 .nav-header{
 	background-color:white;
-	box-shadow: 3px 3px 3px grey;
+	box-shadow: 0 0 8px black;
+	position:relative;
+	z-index:1;
 }
+

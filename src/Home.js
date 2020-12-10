@@ -1,9 +1,39 @@
 import React from 'react';
-import {Badge, UncontrolledCollapse, Button} from 'reactstrap'; 
- 
+import img from './cute-puppies-1084325_1280.jpg';
+import img2 from './cute-3862219_1280.jpg';
+import img3 from './pug-3567638_1280.jpg';
+import {
+	Badge, 
+	UncontrolledCollapse, 
+	Button,
+	UncontrolledCarousel
+} from 'reactstrap'; 
+
+const items = [
+  {
+    src: img,
+    altText: 'Slide 1',
+	caption: '',
+    key: '1'
+  },
+  {
+    src: img2,
+    altText: 'Slide 2',
+	caption: '',
+    key: '2'
+  },
+  {
+    src: img3,
+    altText: 'Slide 3',
+	caption: '',
+    key: '3'
+  }
+];
+
 const Home = () => {
     return (
 		<div>
+		<UncontrolledCarousel className="carousel" items={items} />
 		<div className="section">
 			<h2>Welcome to the AAPT-NES</h2>
 			<hr/>

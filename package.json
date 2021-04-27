@@ -1,7 +1,7 @@
 {
-  "name": "aapt-nes",
+  "name": "AAPT-NES",
   "version": "0.1.0",
-  "homepage": "https://GORosin.github.io/aapt-nes",
+  "homepage": "https://GORosin.github.io/AAPT-NES",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",

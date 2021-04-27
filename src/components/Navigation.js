@@ -18,7 +18,7 @@ const Navigation = (props) => {
     <div className="nav-header">
 		<h1>AAPT-NEW ENGLAND SECTION</h1>
         <Navbar light expand="md">
-        <NavbarBrand href="/">Home</NavbarBrand>
+        <NavbarBrand href="/aapt-nes">Home</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>

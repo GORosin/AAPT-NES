@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
  
 import Home from './Home';
 import Meetings from './components/Meetings';
@@ -19,12 +19,11 @@ import WildApricot from './components/WildApricot';
 function App() {
   return (
     <div className="App">
-		<BrowserRouter>
         <div>
 			<Navigation className = "navigation"/>
             <Switch>
-             <Route path="/AAPT-NES" component={Home} exact/>
-             <Route path="/AAPT-NES/regional-meetings" component={Meetings}/>
+             <Route path="/" component={Home} exact/>
+             <Route path="/regional-meetings" component={Meetings}/>
              <Route path="/physics-olympics" component={Physics}/>
              <Route path="/janet-guersney-award" component={Award}/>
              <Route path="/become-a-member" component={Member}/>
@@ -36,7 +35,6 @@ function App() {
             <Route component={Error}/>
            </Switch>
         </div> 
-      </BrowserRouter>
 	  </div>
   );
 }

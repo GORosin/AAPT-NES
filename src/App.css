@@ -1,7 +1,6 @@
 .App {
 	min-height:100vh;
 	text-align: left;
-	background-color: #fff0e6;
 }
 
 .App-logo {
@@ -102,9 +101,9 @@ li{
   margin: auto;
   margin-top: 20px;
   max-width: 600px;
+  padding: 25px;
   border: 3px solid #d9d9d9;
   background-color: white;
-  padding: 25px;
 }
 button{
 	float:right;
@@ -118,4 +117,9 @@ button{
 	position:relative;
 	z-index:1;
 }
-
+#welcome{
+	background-color:#ccffff;
+}
+#events{
+	background-color: #ffcccc;
+}

@@ -23,7 +23,7 @@ function App() {
         <div>
 			<Navigation className = "navigation"/>
             <Switch>
-             <Route path="/" component={Home} exact/>
+             <Route path="/aapt-nes" component={Home}/>
              <Route path="/regional-meetings" component={Meetings}/>
              <Route path="/physics-olympics" component={Physics}/>
              <Route path="/janet-guersney-award" component={Award}/>

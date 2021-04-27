@@ -8,12 +8,16 @@ import {
 	Button,
 	UncontrolledCarousel
 } from 'reactstrap'; 
+import ReactDOM from 'react-dom';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
+
 
 const items = [
   {
     src: img,
     altText: 'Slide 1',
-	caption: '',
+	caption: 'Welcome to the AAPT-NES',
     key: '1'
   },
   {
@@ -33,7 +37,29 @@ const items = [
 const Home = () => {
     return (
 		<div>
-		<UncontrolledCarousel className="carousel" items={items} />
+		<Carousel>
+                <div>
+                    <img src={img} />
+					<h2>Welcome to the AAPT-NES</h2>
+			<hr/>
+			<p>The objective of the New England Section of the American Association of Physics 
+			Teachers is the advancement and integration of the teaching of physics at all 
+			educational levels and the furtherance of an appreciation for the role of physics 
+			in our culture. Its membership consists of those interested in the teaching of 
+			physics. NES-AAPT membership is not contingent upon membership in the 
+			American Association of Physics Teachers (AAPT).</p>
+			<p>Click <a href="/regional-meetings">here</a> for more information on local meetings.</p>
+                </div>
+                <div>
+                    <img src={img2} />
+                    <p className="legend">Legend 2</p>
+                </div>
+                <div>
+                    <img src={img3} />
+                    <p className="legend">Legend 3</p>
+                </div>
+            </Carousel>
+		<div id="welcome">
 		<div className="section">
 			<h2>Welcome to the AAPT-NES</h2>
 			<hr/>
@@ -45,6 +71,8 @@ const Home = () => {
 			American Association of Physics Teachers (AAPT).</p>
 			<p>Click <a href="/regional-meetings">here</a> for more information on local meetings.</p>
 		</div>
+		</div>
+		<div id="events">
 		<div className="section">
 			<h2 id="oct7"><Badge color="danger">Oct 7th</Badge> NES Fall Meeting <Button color="primary">Details</Button></h2>
 		<UncontrolledCollapse toggler="#oct7">
@@ -94,6 +122,7 @@ const Home = () => {
 			<p>If you would like to contribute a talk, <a href = "https://forms.gle/9jyMzMZtrvfoEk2RA">please use this form.</a></p>
 			<p>Or paste this link to contribute: https://forms.gle/9jyMzMZtrvfoEk2RA</p>
 			</UncontrolledCollapse>
+		</div>
 		</div>
 		</div>
     );

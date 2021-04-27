@@ -18,12 +18,12 @@ const Navigation = (props) => {
     <div className="nav-header">
 		<h1>AAPT-NEW ENGLAND SECTION</h1>
         <Navbar light expand="md">
-        <NavbarBrand href="/aapt-nes">Home</NavbarBrand>
+        <NavbarBrand href="/AAPT-NES">Home</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="/regional-meetings">Regional Meetings</NavLink>
+              <NavLink href="/AAPT-NES/regional-meetings">Regional Meetings</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="/physics-olympics">Physics Olympics</NavLink>

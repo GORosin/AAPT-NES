@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/AAPT-NES/static/css/main.6d3eccd0.chunk.css",
-    "main.js": "/AAPT-NES/static/js/main.95c44ad8.chunk.js",
-    "main.js.map": "/AAPT-NES/static/js/main.95c44ad8.chunk.js.map",
+    "main.js": "/AAPT-NES/static/js/main.18520dff.chunk.js",
+    "main.js.map": "/AAPT-NES/static/js/main.18520dff.chunk.js.map",
     "runtime-main.js": "/AAPT-NES/static/js/runtime-main.c649a993.js",
     "runtime-main.js.map": "/AAPT-NES/static/js/runtime-main.c649a993.js.map",
     "static/css/2.bef983ce.chunk.css": "/AAPT-NES/static/css/2.bef983ce.chunk.css",
@@ -23,6 +23,6 @@
     "static/css/2.bef983ce.chunk.css",
     "static/js/2.39bf0666.chunk.js",
     "static/css/main.6d3eccd0.chunk.css",
-    "static/js/main.95c44ad8.chunk.js"
+    "static/js/main.18520dff.chunk.js"
   ]
 }

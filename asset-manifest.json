@@ -1,28 +1,28 @@
 {
   "files": {
     "main.css": "/AAPT-NES/static/css/main.6d3eccd0.chunk.css",
-    "main.js": "/AAPT-NES/static/js/main.04312994.chunk.js",
-    "main.js.map": "/AAPT-NES/static/js/main.04312994.chunk.js.map",
-    "runtime-main.js": "/AAPT-NES/static/js/runtime-main.ec2d98f6.js",
-    "runtime-main.js.map": "/AAPT-NES/static/js/runtime-main.ec2d98f6.js.map",
+    "main.js": "/AAPT-NES/static/js/main.95c44ad8.chunk.js",
+    "main.js.map": "/AAPT-NES/static/js/main.95c44ad8.chunk.js.map",
+    "runtime-main.js": "/AAPT-NES/static/js/runtime-main.c649a993.js",
+    "runtime-main.js.map": "/AAPT-NES/static/js/runtime-main.c649a993.js.map",
     "static/css/2.bef983ce.chunk.css": "/AAPT-NES/static/css/2.bef983ce.chunk.css",
-    "static/js/2.e5bd1737.chunk.js": "/AAPT-NES/static/js/2.e5bd1737.chunk.js",
-    "static/js/2.e5bd1737.chunk.js.map": "/AAPT-NES/static/js/2.e5bd1737.chunk.js.map",
-    "static/js/3.05ad56cf.chunk.js": "/AAPT-NES/static/js/3.05ad56cf.chunk.js",
-    "static/js/3.05ad56cf.chunk.js.map": "/AAPT-NES/static/js/3.05ad56cf.chunk.js.map",
+    "static/js/2.39bf0666.chunk.js": "/AAPT-NES/static/js/2.39bf0666.chunk.js",
+    "static/js/2.39bf0666.chunk.js.map": "/AAPT-NES/static/js/2.39bf0666.chunk.js.map",
+    "static/js/3.bba948ac.chunk.js": "/AAPT-NES/static/js/3.bba948ac.chunk.js",
+    "static/js/3.bba948ac.chunk.js.map": "/AAPT-NES/static/js/3.bba948ac.chunk.js.map",
     "index.html": "/AAPT-NES/index.html",
     "static/css/2.bef983ce.chunk.css.map": "/AAPT-NES/static/css/2.bef983ce.chunk.css.map",
     "static/css/main.6d3eccd0.chunk.css.map": "/AAPT-NES/static/css/main.6d3eccd0.chunk.css.map",
-    "static/js/2.e5bd1737.chunk.js.LICENSE.txt": "/AAPT-NES/static/js/2.e5bd1737.chunk.js.LICENSE.txt",
+    "static/js/2.39bf0666.chunk.js.LICENSE.txt": "/AAPT-NES/static/js/2.39bf0666.chunk.js.LICENSE.txt",
     "static/media/cute-3862219_1280.ff3d5b1a.jpg": "/AAPT-NES/static/media/cute-3862219_1280.ff3d5b1a.jpg",
     "static/media/cute-puppies-1084325_1280.664f0b53.jpg": "/AAPT-NES/static/media/cute-puppies-1084325_1280.664f0b53.jpg",
     "static/media/pug-3567638_1280.4cdd4d17.jpg": "/AAPT-NES/static/media/pug-3567638_1280.4cdd4d17.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ec2d98f6.js",
+    "static/js/runtime-main.c649a993.js",
     "static/css/2.bef983ce.chunk.css",
-    "static/js/2.e5bd1737.chunk.js",
+    "static/js/2.39bf0666.chunk.js",
     "static/css/main.6d3eccd0.chunk.css",
-    "static/js/main.04312994.chunk.js"
+    "static/js/main.95c44ad8.chunk.js"
   ]
 }

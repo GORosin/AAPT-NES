@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/aapt-nes/static/css/main.6d3eccd0.chunk.css",
+    "main.js": "/aapt-nes/static/js/main.8ef20b45.chunk.js",
+    "main.js.map": "/aapt-nes/static/js/main.8ef20b45.chunk.js.map",
+    "runtime-main.js": "/aapt-nes/static/js/runtime-main.176e7cf9.js",
+    "runtime-main.js.map": "/aapt-nes/static/js/runtime-main.176e7cf9.js.map",
+    "static/css/2.bef983ce.chunk.css": "/aapt-nes/static/css/2.bef983ce.chunk.css",
+    "static/js/2.e000ac3b.chunk.js": "/aapt-nes/static/js/2.e000ac3b.chunk.js",
+    "static/js/2.e000ac3b.chunk.js.map": "/aapt-nes/static/js/2.e000ac3b.chunk.js.map",
+    "static/js/3.d19b8954.chunk.js": "/aapt-nes/static/js/3.d19b8954.chunk.js",
+    "static/js/3.d19b8954.chunk.js.map": "/aapt-nes/static/js/3.d19b8954.chunk.js.map",
+    "index.html": "/aapt-nes/index.html",
+    "static/css/2.bef983ce.chunk.css.map": "/aapt-nes/static/css/2.bef983ce.chunk.css.map",
+    "static/css/main.6d3eccd0.chunk.css.map": "/aapt-nes/static/css/main.6d3eccd0.chunk.css.map",
+    "static/js/2.e000ac3b.chunk.js.LICENSE.txt": "/aapt-nes/static/js/2.e000ac3b.chunk.js.LICENSE.txt",
+    "static/media/cute-3862219_1280.ff3d5b1a.jpg": "/aapt-nes/static/media/cute-3862219_1280.ff3d5b1a.jpg",
+    "static/media/cute-puppies-1084325_1280.664f0b53.jpg": "/aapt-nes/static/media/cute-puppies-1084325_1280.664f0b53.jpg",
+    "static/media/pug-3567638_1280.4cdd4d17.jpg": "/aapt-nes/static/media/pug-3567638_1280.4cdd4d17.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.176e7cf9.js",
+    "static/css/2.bef983ce.chunk.css",
+    "static/js/2.e000ac3b.chunk.js",
+    "static/css/main.6d3eccd0.chunk.css",
+    "static/js/main.8ef20b45.chunk.js"
+  ]
+}
